@@ -8,9 +8,6 @@ console.log("WebGame")
 //greenCharacter.style.bottom = '100px'
 //document.body.append(greenCharacter)
 
-//Bonus Back Ground 
-const backgroundContainer = document.querySelector('.background-container');
-backgroundContainer.style.backgroundImage = "'assets/sky.png', 'assets/grass.png'";
 
 //Refractor Function 
 function devArc (url, left, bottom) {
@@ -30,6 +27,7 @@ function arc(url, left, bottom){
     newArc.remove()
 })
 }
+//Bonus Back Ground 
 
 
 devArc('assets/green-character.gif', 100, 100)
@@ -41,3 +39,4 @@ devArc('assets/well.png', 500, 425)
 arc('assets/sword.png', 500, 405)
 arc('assets/shield.png', 165, 185)
 arc('assets/staff.png', 600, 100)
+
