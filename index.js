@@ -19,7 +19,6 @@ function devArc (url, left, bottom) {
     document.body.append(newArc)
     return newArc 
 }
-
 function arc(url, left, bottom){
    let newArc = devArc(url, left, bottom)
 
